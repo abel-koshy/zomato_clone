@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    background-color: rgb(246, 255, 246);
+}
+
+.navbar{
+    display: flex;
+    width:100%;
+    justify-content:space-between;
+    background-color: white;
+    
+}
+
+.hamburg{
+    font-family: 'Times New Roman', serif, bold ;
+    color: white;
+    background-image:linear-gradient(to right, #ff5124 0%, #e1478c 51%, #ff5124 100%);
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 20px;
+    margin-right: 25px;
+    font-weight: 100px;
+}
+.nav_logo
+{
+    width:100px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 30px;
+    }}
+
+@media (min-width: 1024px) {
+    .nav_logo{
+        width: 150px;
+    
+    }
+        .hamburg {
+            width: 150px;
+            padding:20px;
+        }
+
+
+}
+
+
+.hamburg:hover{
+    /* this is for defining how the element wold react on hovering */
+    border: 2px solid rgb(255, 0, 0);
+    cursor:pointer; 
+    /* turns the cursor to a different type of pointer */
+}
